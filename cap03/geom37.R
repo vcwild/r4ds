@@ -1,5 +1,5 @@
-ggplot(mpg) +
-    geom_bar(x = factor(1), fill = drv, show.legend = FALSE, width = 1) +
+ggplot(diamonds) +
+    geom_bar(aes(x = "", fill = cut), show.legend = TRUE, width = 1) +
     theme(aspect.ratio = 1) +
-    labs(x = NULL) +
+    labs(x = NULL, y = NULL) +
     coord_polar(theta = "y", start = 0)
