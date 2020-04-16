@@ -1,0 +1,1 @@
+(filter(flights, month %in% c(7, 8, 9)))

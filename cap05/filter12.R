@@ -1,0 +1,1 @@
+(filter(flights, between(dep_time, 0, 1200)))

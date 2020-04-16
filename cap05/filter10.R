@@ -1,0 +1,1 @@
+(filter(flights, is.na(dep_time)))
