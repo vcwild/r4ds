@@ -1,0 +1,2 @@
+batters %>% 
+    arrange(desc(ba))
