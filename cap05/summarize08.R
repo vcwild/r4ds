@@ -1,4 +1,5 @@
 library(Lahman)
+library(dplyr)
 
 batting <- as_tibble(Lahman::Batting)
 
